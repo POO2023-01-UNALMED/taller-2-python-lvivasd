@@ -38,7 +38,7 @@ class Auto:
         for asiento in self.asientos:
             if asiento == None:
                 continue
-            elif self.registro != self.asiento.registro:
+            elif self.registro != asiento.registro:
                 return "Las piezas no son originales"
         if self.registro != self.Motor.registro:
             return "Las piezas no son originales"
