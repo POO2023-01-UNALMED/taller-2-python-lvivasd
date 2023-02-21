@@ -40,7 +40,7 @@ class Auto:
                 continue
             elif self.registro != asiento.registro:
                 return "Las piezas no son originales"
-        if self.registro != self.Motor.registro:
+        if self.registro != self.motor.registro:
             return "Las piezas no son originales"
         return "Auto original"
 
